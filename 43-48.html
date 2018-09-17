@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>43-48</title>
+    <script>
+        function myDeleteFunction(i) {
+            document.getElementById("myTable").deleteRow(i);
+        }
+    </script>
+</head>
+
+<body>
+    <!-- <h1>Mobile Phone Lookup</h1>
+    <img src="mobiles.PNG" onclick="alert('Thanks for Purchasing mobile from us');"> -->
+    <table id="myTable">
+        <tr>
+            <h2>Index Name Class</h2>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>Jhone 10</td>
+            <td>
+                <input type="button" value="Delete" onclick="myDeleteFunction(1)"></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Doe 9</td>
+            <td><input type="button" value="Delete" onclick="myDeleteFunction(2)">
+                <tr>
+                    <td>2</td>
+                    <td>Mark 10</td>
+                    <td><input type="button" value="Delete" onclick="myDeleteFunction(3)">
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>James 8</td>
+                    <td><input type="button" value="Delete" onclick="myDeleteFunction(4)">
+                </tr>
+    </table>
+    <table>
+        <th>
+            <td></td>
+            <h2>Picture will change on Mouse over</h2>
+            </td>
+            <tr><img src="computer.jpg" onmouseover="src='laptop.jpg'" onmouseout="src='computer.jpg'"></tr>
+        </th>
+
+    </table>
+
+</body>
+
+</html>

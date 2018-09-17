@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chap 14-16</title>
+    <script>
+        var studentName = [];
+        var studentName = [];
+        var stringArray = ["a", "b", "c"];
+        var numbersArray = [1, 2, 3];
+        var booleanArray = [true, false]
+        var mixedArray = ["a", 1, true]
+        var availableEducation = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil.", "PhD"]
+        document.write("<h1>Qualifications:</h1>" + "<br/>")
+        for (var counter = 0; counter <= 7; counter++) {
+            document.write(counter + 1 + ")" + availableEducation[counter] + "<br />");
+        }
+
+        var studentName = [];
+        for (var counter = 0; counter < 3; counter++) {
+            studentName[counter] = prompt("Enter Student Name " + (counter + 1), "Ali");
+        };
+        var studentScore = [];
+        for (var counter = 0; counter < 3; counter++) {
+            studentScore[counter] = prompt("Enter Student Score " + (counter + 1), "60");
+        };
+        var studentPercentage = [];
+        for (var counter = 0; counter < 3; counter++) {
+            studentPercentage[counter] = studentScore/100*100;
+        };
+        document.write("Score of " + studentName[0] + " is " + studentScore[0] + ".Percentage:" + studentPercentage[0] + "%"+"<br/>");
+        document.write("Score of " + studentName[1] + " is " + studentScore[1] + ".Percentage:" + studentPercentage[1] + "%"+"<br/>");
+        document.write("Score of " + studentName[2] + " is " + studentScore[2] + ".Percentage:" + studentPercentage[2] + "%"+"<br/>");
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
